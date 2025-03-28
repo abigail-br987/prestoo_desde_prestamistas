@@ -28,8 +28,8 @@ export const MessageNavigator = () => {
         headerTitleAlign: "left",
         headerTitle: () => (
           <View style={{ flexDirection: "row", alignItems: "center", gap: 10 }}>
-            <Text style={[fonts.h2]}>BUZÓN</Text>
-            <Text style={[fonts.h3]}>(SOLICITANTES)</Text>
+            <Text style={[fonts.h2]}>MATCHES</Text>
+            <Text style={[fonts.h3]}>(PRESTATARIOS)</Text>
           </View>
         ),
 
@@ -64,7 +64,7 @@ export const MessageNavigator = () => {
       <TouchableOpacity
         style={{ marginLeft: 15 }}
         onPress={() =>
-          navigation.navigate("Mensajes", {
+          navigation.navigate("Matches", {
             screen: "BUZON DE MENSAJES",
           })
         }      >
