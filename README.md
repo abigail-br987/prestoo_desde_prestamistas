@@ -10,7 +10,6 @@ Prestoo es la nueva aplicación de BCP diseñada para conectar prestatarios con 
 - **Rentable**: Los usuarios deciden la tasa de interés, permitiendo mejores préstamos e inversiones.
 - **Accesible**: Disponible para usuarios sin historial crediticio, con integración a Yape y BCP.
 
-
 ## Tecnologías Utilizadas
 
 - React Native - Desarrollo de la app móvil
@@ -25,8 +24,8 @@ Expo CLI
 Git
 
 **Clonar el repositorio**
-git clone
-cd nombre-del-repositorio  
+git clone https://github.com/abigail-br987/prestoo_desde_prestamistas.git
+cd prestoo_desde_prestamistas  
 
 **Instalar dependencias**
 npm install  
