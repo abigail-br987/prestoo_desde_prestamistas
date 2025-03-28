@@ -27,7 +27,7 @@ const AccountScreen = ({ navigation }) => {
       >
         <View style={{ flexDirection: "row", gap: 10 }}>
           <Image
-            source={{ uri: "https://randomuser.me/api/portraits/women/4.jpg" }}
+            source={{ uri: "https://randomuser.me/api/portraits/women/25.jpg" }}
             style={{
               width: 40,
               height: 40,
@@ -37,8 +37,8 @@ const AccountScreen = ({ navigation }) => {
           />
 
           <View>
-            <Text style={[fonts.subheading]}>Nombre Apellido</Text>
-            <Text style={[fonts.label2]}>+51 999 999 999</Text>
+            <Text style={[fonts.subheading]}>GABRIELA PÉREZ</Text>
+            <Text style={[fonts.label2]}>+51 912 345 648</Text>
           </View>
         </View>
 
@@ -88,38 +88,12 @@ const AccountScreen = ({ navigation }) => {
         </View>
 
         <View style={{ padding: 15, backgroundColor: colors.baseColor }}>
-          <Text style={[fonts.subheading]}>MONTO: S/. 1000</Text>
-          <Text style={[fonts.subheading]}>TASA DE INTERÉS: 4% </Text>
-          <Text style={[fonts.subheading]}>PLAZO DE TIEMPO: 4 MESES </Text>
+          <Text style={[fonts.subheading]}>TASA DE INTERÉS: 4% - 6% </Text>
+          <Text style={[fonts.subheading]}>PLAZO DE TIEMPO: 4 - 12 MESES </Text>
         </View>
       </View>
 
-      <View
-        style={{
-          backgroundColor: colors.intensePrimaryAccent,
-          paddingVertical: 10,
-          paddingHorizontal: 15,
-          elevation: 5,
-          borderRadius: 5,
-        }}
-      >
-        <View
-          style={{
-            flexDirection: "row",
-            justifyContent: "space-between",
-            alignItems: "center",
-          }}
-        >
-          <Text style={[fonts.h2]}>PUNTAJE: 50000</Text>
 
-          <Ionicons name={"help-circle"} size={40} color={colors.textColor} />
-        </View>
-      </View>
-
-      <SettingsItem
-        label="MÁS MÉTODOS NO TRADICIONALES"
-        iconName="diamond-outline"
-      />
 
       <View style={{ gap: 5 }}>
         <SettingsItem
@@ -130,7 +104,7 @@ const AccountScreen = ({ navigation }) => {
           label="PREFERENCIAS NOTIFICACIÓN"
           iconName="notifications-outline"
         />
-        <SettingsItem label="MÉTODO DE PAGO" iconName="wallet-outline" />
+        <SettingsItem label="CONECCIÓN A BCP" iconName="wallet-outline" />
         <SettingsItem label="IDIOMA" iconName="language-outline" />
       </View>
 
