@@ -132,14 +132,7 @@ export const HomeDetailScreen = ({ route, navigation }) => {
         </View>
       </View>
 
-      <View style={{ gap: 15 }}>
-        <Text style={[fonts.h3]}>HISTORIAL RECIENTE:</Text>
-        {profile.loanHistory.map((loan, index) => (
-          <Text key={index} style={[fonts.label2]}>
-            - {loan}
-          </Text>
-        ))}
-      </View>
+     
     </View>
   );
 };
