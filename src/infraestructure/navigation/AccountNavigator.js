@@ -43,7 +43,7 @@ const AccountNavigator = () => {
           headerTitle: () => (
             <View style={{ flexDirection: "row", alignItems: "center", gap: 10 }}>
               <Text style={[fonts.h2]}>PERFIL</Text>
-              <Text style={[fonts.h3]}>(PESTRAMISTA)</Text>
+              <Text style={[fonts.h3]}>(PRESTAMISTA)</Text>
             </View>
           ),
           headerRight: () => (

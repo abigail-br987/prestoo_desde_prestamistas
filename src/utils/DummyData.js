@@ -184,20 +184,84 @@ export const profiles = [
 
 
 export const messages = [
-    {
-      id: "m1",
-      profileId: "1",
-      messages: [
-        { sender: "Luis Pérez", text: "Hola, ¿cómo estás?", timestamp: "10:00 AM" },
-        { sender: "Tú", text: "¡Hola Luis! Todo bien, ¿y tú?", timestamp: "10:05 AM" },
-      ],
-    },
-    {
-      id: "m2",
-      profileId: "2",
-      messages: [
-        { sender: "María López", text: "¿Me podrías dar más detalles?", timestamp: "11:00 AM" },
-        { sender: "Tú", text: "Por supuesto, te explico...", timestamp: "11:10 AM" },
-      ],
-    },
-  ];
+  {
+    id: "m1",
+    profileId: "1",
+    messages: [
+      { sender: "Luis Pérez", text: "Hola, ¿cómo estás?", timestamp: "10:00 AM" },
+      { sender: "Tú", text: "¡Hola Luis! Todo bien, ¿y tú?", timestamp: "10:05 AM" },
+    ],
+  },
+  {
+    id: "m2",
+    profileId: "2",
+    messages: [
+      { sender: "María López", text: "¿Me podrías dar más detalles?", timestamp: "11:00 AM" },
+      { sender: "Tú", text: "Por supuesto, te explico...", timestamp: "11:10 AM" },
+    ],
+  },
+  {
+    id: "m3",
+    profileId: "3",
+    messages: [
+      { sender: "Carlos Ramírez", text: "¿Cuándo puedo recibir una respuesta?", timestamp: "12:30 PM" },
+      { sender: "Tú", text: "En breve te confirmo.", timestamp: "12:35 PM" },
+    ],
+  },
+  {
+    id: "m4",
+    profileId: "4",
+    messages: [
+      { sender: "Ana Torres", text: "Estoy interesada en conocer más sobre las opciones de pago.", timestamp: "2:00 PM" },
+      { sender: "Tú", text: "Claro, te comparto los detalles a continuación.", timestamp: "2:05 PM" },
+    ],
+  },
+  {
+    id: "m5",
+    profileId: "5",
+    messages: [
+      { sender: "Pedro Castillo", text: "¿Hay algún requisito adicional?", timestamp: "3:45 PM" },
+      { sender: "Tú", text: "Déjame verificarlo y te informo.", timestamp: "3:50 PM" },
+    ],
+  },
+  {
+    id: "m6",
+    profileId: "6",
+    messages: [
+      { sender: "Sofía Mendoza", text: "Quisiera saber si es posible ajustar el monto del préstamo.", timestamp: "4:20 PM" },
+      { sender: "Tú", text: "Podemos analizarlo y ver qué opciones hay.", timestamp: "4:25 PM" },
+    ],
+  },
+  {
+    id: "m7",
+    profileId: "7",
+    messages: [
+      { sender: "Ricardo Gómez", text: "Necesito información sobre los plazos de pago.", timestamp: "5:10 PM" },
+      { sender: "Tú", text: "Aquí tienes los detalles de los plazos.", timestamp: "5:15 PM" },
+    ],
+  },
+  {
+    id: "m8",
+    profileId: "8",
+    messages: [
+      { sender: "Luis Pérez", text: "¿Cómo puedo iniciar el proceso de solicitud?", timestamp: "6:00 PM" },
+      { sender: "Tú", text: "Te guiaré paso a paso.", timestamp: "6:05 PM" },
+    ],
+  },
+  {
+    id: "m9",
+    profileId: "9",
+    messages: [
+      { sender: "María López", text: "¿Cuánto tiempo toma la aprobación?", timestamp: "7:30 PM" },
+      { sender: "Tú", text: "Generalmente entre 24 y 48 horas.", timestamp: "7:35 PM" },
+    ],
+  },
+  {
+    id: "m10",
+    profileId: "10",
+    messages: [
+      { sender: "Ana Torres", text: "Estoy lista para proceder con la solicitud.", timestamp: "8:00 PM" },
+      { sender: "Tú", text: "¡Perfecto! Te enviaré los siguientes pasos.", timestamp: "8:05 PM" },
+    ],
+  },
+];

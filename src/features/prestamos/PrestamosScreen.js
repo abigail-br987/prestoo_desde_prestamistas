@@ -19,13 +19,6 @@ const prestamos = [
     fechaVencimiento: "30 de marzo de 2025",
     estado: "Retrasado",
   },
-  {
-    id: "3",
-    prestatario: "Luis Pérez",
-    monto: 500,
-    fechaVencimiento: "15 de mayo de 2025",
-    estado: "A tiempo",
-  },
 ];
 
 const PrestamoItem = ({ prestamo }) => {
