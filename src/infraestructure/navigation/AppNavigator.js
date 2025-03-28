@@ -13,7 +13,7 @@ const Tab = createBottomTabNavigator();
 
 const TAB_ICON = {
   Home: "home",
-  Mensajes: "chatbubble-outline",
+  Matches: "people-outline",
   Préstamos: "cash-outline",
   Anuncios: "megaphone-outline",
   Cuenta: "person-outline",
@@ -60,7 +60,7 @@ const createScreenOptions = ({ route }) => ({
 export const AppNavigator = () => (
   <Tab.Navigator screenOptions={createScreenOptions}>
     <Tab.Screen name="Home" component={HomeNavigator} />
-    <Tab.Screen name="Mensajes" component={MessageNavigator} />
+    <Tab.Screen name="Matches" component={MessageNavigator} />
     <Tab.Screen 
       name="Préstamos" 
       component={PrestamosNavigator} 
