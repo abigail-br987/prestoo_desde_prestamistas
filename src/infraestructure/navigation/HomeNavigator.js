@@ -34,26 +34,7 @@ export const HomeNavigator = () => {
             elevation: 10,
           },
 
-          headerTitle: () => <Text style={[fonts.h2]}>PRESTATARIOS</Text>,
-
-          headerRight: () => (
-            <View
-              style={{
-                flexDirection: "row",
-                marginRight: 10,
-                gap: 10,
-              }}
-            >
-              <Button1
-                label="Filtros"
-                onPress={() => console.log("Filtros clicked")}
-              />
-              <Button1
-                label="Ordenar"
-                onPress={() => console.log("Ordenar clicked")}
-              />
-            </View>
-          ),
+          headerTitle: () => <Text style={[fonts.h2]}>ENCUENTRA PRESTATARIOS</Text>,
         }}
       />
 
