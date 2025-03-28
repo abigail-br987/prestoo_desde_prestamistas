@@ -7,41 +7,33 @@ import { formatDistanceToNow, parseISO } from "date-fns";
 const anuncios = [
   {
     id: "1",
-    title: "¡Puntaje Subido!",
-    message: "🎉 ¡Tu puntaje ha subido! Ahora tienes más confianza en la app.",
-    date: "2025-03-27T10:00:00Z",
+    title: "Nuevo Solicitante Coincide Contigo",
+    message: "🔎 Hemos encontrado un prestatario que coincide con tu perfil de inversión. Ha sido movido a Matches. ¡Revisa su solicitud!",
+    date: "2025-03-22T15:00:00Z",
   },
   {
     id: "2",
-    title: "Nuevo Préstamo Aprobado",
-    message:
-      "🏦 ¡Felicidades! El banco confía más en ti y ahora puedes pedir un préstamo mayor.",
-    date: "2025-03-15T12:00:00Z",
+    title: "Pago Recibido (BCP)",
+    message: "💰 Has recibido un pago de un prestatario. Tu saldo ha sido actualizado.",
+    date: "2025-03-21T09:30:00Z",
   },
   {
     id: "3",
-    title: "Recomendación Recibida",
-    message:
-      "👍 Has recibido una recomendación de un usuario confiable. ¡Sigue así!",
-    date: "2025-02-27T09:00:00Z",
+    title: "Retraso en Pago",
+    message: "⚠️ Un prestatario ha retrasado su pago. Te notificaremos sobre cualquier actualización.",
+    date: "2025-03-20T18:45:00Z",
   },
   {
     id: "4",
-    title: "Redes Sociales Validadas",
-    message:
-      "🔗 Has validado tus redes sociales. Ahora eres más confiable en la comunidad.",
-    date: "2025-01-15T16:00:00Z", 
+    title: "Actualización de Seguridad",
+    message: "🔒 Hemos mejorado la seguridad de la app. Asegúrate de actualizar a la última versión.",
+    date: "2025-03-18T07:00:00Z",
   },
   {
     id: "5",
-    title: "Nuevo Logro",
-    message: "🏅 ¡Felicidades! Has alcanzado un nuevo logro en la app.",
-    date: "2025-03-20T14:30:00Z", },
-  {
-    id: "6",
-    title: "Nuevo Mensaje",
-    message: "📩 Has recibido un nuevo mensaje de un amigo.",
-    date: "2025-03-18T08:00:00Z",
+    title: "Nuevo Testimonio",
+    message: "📝 Un prestatario ha dejado un testimonio positivo sobre ti. ¡Tu confianza sigue creciendo!",
+    date: "2025-03-17T16:10:00Z",
   },
 ];
 
